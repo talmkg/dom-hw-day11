@@ -155,9 +155,12 @@
         <p>Share your emotions with us!</p>
         <input type="text" placeholder="its shit ngl">
     </div>
-    <button onclick="myFunction()">Click h1</button>
+    <center>
+    <button onclick="myFunction()">change h1</button>
     <button onclick="changeback()">background change:)</button>
     <button onclick="urlchange()">url change</button>
+    <button onclick="applyRandomColor()">Random colors</button>
+    </center>
 
     <script>
         document.getElementById("rollingstoners").innerHTML = "Real Rolling Stoners";
@@ -173,6 +176,21 @@
         function urlchange() {
             window.history.pushState("object or string", "Title", "/wtf");
         }
+        const applyRandomColor = function () {
+        const color = RandomColors();
+        for (let text of document.querySelectorAll("p,h3,h1,ul,li,th,td")) {
+            text.style.color = color
+        }
+        }
+        const RandomColors = function () {
+        const red = Math.round(Math.random() * 255)
+        const green = Math.round(Math.random() * 255)
+        const blue = Math.round(Math.random() * 255)
+
+        return "rgb(" + red + "," + green + "," + blue + ")"
+
+
+}
     </script>
   </body>
 </html>

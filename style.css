@@ -21,6 +21,7 @@ table:hover {
 }
 table img {
   border-radius: 1rem;
+  transition: 0.5s;
 }
 .iphone1 img {
   background-image: url(./Untitled.png);
@@ -78,4 +79,8 @@ ul {
   font-family: sans-serif;
   min-width: 400px;
   box-shadow: 10 10 20px rgba(3, 3, 3);
+}
+table img:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
 }
