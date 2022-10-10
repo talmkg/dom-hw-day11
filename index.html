@@ -155,12 +155,24 @@
         <p>Share your emotions with us!</p>
         <input type="text" placeholder="its shit ngl">
     </div>
+    <button onclick="myFunction()">Click h1</button>
+    <button onclick="changeback()">background change:)</button>
+    <button onclick="urlchange()">url change</button>
+
     <script>
         document.getElementById("rollingstoners").innerHTML = "Real Rolling Stoners";
         document.body.style.backgroundColor = "red";
-        /*window.history.pushState("object or string", "Title", "/gay-cases"); */
+        /*window.history.pushState("object or string", "Title", "/wtf"); */
         //EX10: whatthefuck //
-
+        function myFunction() {
+            document.getElementById("rollingstoners").innerHTML = "Secret Drug Base";
+        }
+        function changeback() {
+            document.body.style.background = "orange  no-repeat right top";
+        }
+        function urlchange() {
+            window.history.pushState("object or string", "Title", "/wtf");
+        }
     </script>
   </body>
 </html>
