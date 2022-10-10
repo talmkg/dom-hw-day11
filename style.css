@@ -20,7 +20,7 @@ table:hover {
   transition: 0.5s;
 }
 table img {
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 .iphone1 img {
   background-image: url(./Untitled.png);
@@ -33,11 +33,11 @@ table img {
   margin-left: 20rem;
   display: inline;
   z-index: -1;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   transition: 1s;
 }
 .nav {
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 .iphone1 img:hover {
   background-position-x: 3em;
@@ -53,13 +53,10 @@ ul {
 .text {
   text-align: center;
   color: bisque;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   margin-left: 12rem;
   margin-right: 12rem;
-  border: 1px solid bisque;
   padding: 1rem;
-  border-radius: 0.2rem;
-  border-bottom-right-radius: 2.5rem;
 }
 .text p {
   font-family: "Montserrat", sans-serif;
@@ -80,5 +77,5 @@ ul {
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 10 10 20px rgba(3, 3, 3);
 }
