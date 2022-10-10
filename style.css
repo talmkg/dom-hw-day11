@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(to right, #33ccff 0%, #990033 100%);
+}
+
+tr {
+  border-radius: 5em;
+}
+table,
+th,
+td {
+  border-radius: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+table {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+table:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+table img {
+  border-radius: 2rem;
+}
+.iphone1 img {
+  background-image: url(./Untitled.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position-x: 6em;
+  background-position-y: -0.5em;
+  opacity: 0.7;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  display: inline;
+  z-index: -1;
+  margin-bottom: 10rem;
+  transition: 1s;
+}
+.nav {
+  margin-bottom: 10rem;
+}
+.iphone1 img:hover {
+  background-position-x: 3em;
+  transform: scale(1.06);
+  transition: 1s;
+  opacity: 1;
+}
+ul {
+  color: antiquewhite;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.text {
+  text-align: center;
+  color: bisque;
+  margin-bottom: 15rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  border: 1px solid bisque;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  border-bottom-right-radius: 2.5rem;
+}
+.text p {
+  font-family: "Montserrat", sans-serif;
+}
+.input {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: antiquewhite;
+}
+.input input {
+  width: 10rem;
+  height: 1.5rem;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
